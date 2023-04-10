@@ -1,3 +1,11 @@
+@use "../core/variables" as variable;
+
+html {
+  background-color: variable.$primary-color-light;
+}
+body {
+  padding: 16px;
+}
 p {
   font-size: 0.875rem;
 }
